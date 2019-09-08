@@ -27,6 +27,7 @@ terraform init -backend-config path="service/jimrazmus/test-app-terraform"
 ## Review the Web Interfaces
 
 consul: http://127.0.0.1:8500/
+
 nomad: http://127.0.0.1:4646/
 
 ## Micro-service Life Cycle
