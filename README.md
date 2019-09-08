@@ -24,6 +24,8 @@ nomad agent -dev
 terraform init -backend-config path="service/jimrazmus/test-app-terraform"
 ```
 
+Note that the path here matches the path in the backend.tf file.
+
 ## Review the Web Interfaces
 
 consul: http://127.0.0.1:8500/
