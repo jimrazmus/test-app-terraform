@@ -15,6 +15,7 @@ job "http-echo-${workspace}" {
       }
 
       driver = "docker"
+      leader = "true"
 
       resources {
         network {
