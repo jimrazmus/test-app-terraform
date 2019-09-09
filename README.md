@@ -18,7 +18,7 @@ Run each of these commands, in order, and in separate terminals. Leave them runn
 
 ```
 consul agent -dev
-vault server -dev
+vault server -dev -tls-skip-verify
 nomad agent -dev
 ```
 
