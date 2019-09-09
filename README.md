@@ -1,6 +1,6 @@
 # test-app-terraform
 
-Proof of concept to deploy a micro-service using Terraform. The micro-service will run as a Nomad job with state and service information kept in Consul. Consul, Nomad, and Vault run in development mode on you Mac laptop.
+Proof of concept to deploy a micro-service using Terraform. The micro-service will run as a Nomad job with state and service information kept in Consul. Consul, Nomad, and Vault run in development mode on your Mac laptop.
 
 ## Getting Started
 
