@@ -36,6 +36,9 @@ job "http-echo-${workspace}" {
           grace = "10s"
           ignore_warnings = false
         }
+        connect {
+          sidecar_service {}
+        }
         name = "http-echo-${workspace}"
         port = "http"
         tags = [
